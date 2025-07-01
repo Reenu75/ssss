@@ -1,0 +1,1146 @@
+web development:
+    from the scratch we are developing something over the internet connection.
+
+1)website
+    collection of webpages is called as website.
+2)webpages
+    collection of contents based on the requirement.
+
+types of websites:
+  1)static ->content and data should not be changed to each and every person.
+         ex:tutorial,book,college
+
+  2)dynamic-->content and data should be changed to each and every website.
+         ex:amazon,instagram,facebook
+====
+HTML:
+    Hyper Text Markup language.
+    it is used to create structure to our website.
+    it is in the format of tag.
+    html is not a case sensitive   <p>     <P>     
+
+tag:
+
+<>  -->opening tag
+</> -->closing tag
+
+<p>---------------
+----------
+------
+-----------------</p>
+
+
+history html:
+html v1: we cant add image and audio video  directly in html file:
+v2
+v3
+v4
+v5
+standard version:
+html v5:we can add image,audio,video directly using html file
+
+---------------------------------
+notepad++   
+
+how to download  install visual studio code. 
+
+-----------------------------
+----------------------
+how to create a first html project
+
+step 1:create one folder in file manager 
+step 2:go to vs code ->click file ->click open folder
+step 3:open the created folder using vs code
+step 4:right click below folder name
+step 5: click new file -->basic.html   
+
+html file:
+structure of html:
+
+!DOCTYPE--->  represent the html v5
+<!DOCTYPE html>
+<html>
+    <head>
+       <title></title>  
+    </head>
+    <body>
+         
+    </body>
+</html>
+
+
+how to run html file:
+
+step 1: go to the created folder
+step 2: open the folder ->double click to open html file  ->
+        automatically run on the browser.
+
+right click the html file 
+and click on reveal in file explorer
+then double click open the html file
+
+download live server
+then right click html file
+click on open with live server  
+auto update -> no need to refresh
+
+----------------------------------------------
+
+1)
+
+heading tags:
+   there are 6 types:
+
+<h1></h1>   largest text
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>   least text
+
+-----------------
+paragraph tag: 
+    it remove all the white spaces.it combined as a paragraph.
+<p></p>
+----------------
+preformatted text tag:  <pre>
+   its like a predefined.
+   it accept the white spaces.
+<pre></pre>
+----------------
+blockquote tag:
+    1.it seems like paragraph.
+    2.it remove all white spaces.
+    3.but it will create some margin around the text.
+<blockquote>
+</blockquote>
+----------------
+break tag:
+
+<br>
+
+it is used to break the line.
+there is no closing tag.so it is called as empty tag.
+-------------------------------
+horizantal line:
+
+<hr>
+
+it creates a horizontal line.
+there is no closing tag.so it is called as empty tag.
+
+-----------------------------------
+comment line tag:
+
+<!-- content -->
+
+it is used to give information about the program to the another developer,testor.
+it is only for the developer purpose not for the user so it won't display on the web page.
+
+----------------------------------
+
+lists:
+   
+There are 4 types of list in html:
+  1)ordered list   (1.2.3.4)
+  2)unordered list   (....)
+  3)description or definition list
+  4)nested list
+
+1)ordered list   
+    1.html         
+    2.css
+    3.javascript
+    4.Typescript
+    5.Angular
+
+2)unordered list
+
+    .html
+    .css
+    .javascript
+    .Typescript
+    .Angular
+   
+3)description list (or)  definition list <dl>
+
+frontend: description title<dt>
+    html description data<dd>
+    css
+    js
+
+framework:
+    react
+    angular
+backend:
+     node.js
+     express.js
+
+4)nested list
+
+ combination of ordered and un ordered list
+
+1.frontend
+    .html
+       1.tag
+       2.structure
+    .css
+       1.style
+       2.attraction
+    .js
+       1.script
+       2.actions
+    .ts
+       1.action
+       2.oops
+    .angular
+       1.framework
+2.backend
+    .node
+       1.url
+       2.api
+    .express
+       1.framework of backend
+3.database
+    .mongodb
+       1.storing
+----------------
+
+.Web Development
+      1.MERN
+          .Frontend
+             1.html
+             2.css
+             3.Js 
+             4.React
+          .Backend
+             1)node
+             2)Expree
+          .Database
+             1)MongoDB
+      2.MEAN
+          .Frontend
+             1)html
+             2)css
+             3)Js 
+             4)Angular 
+          .Backend
+             1)node
+             2)Expree
+          .Database
+             1)MongoDB
+      3.Java Fullstack
+          .Frontend 
+             1)html
+             2)css
+             3)Js 
+             4)React
+          .Backend
+             1)Java
+             2)Springboot
+          .Database
+             1)sql,mysql
+      4)Python Fullstack
+          .Frontend 
+             1)html
+             2)css
+             3)Js 
+             4)React
+          .Backend
+             1)python
+             2)django
+          .Database
+             1)sql,mysql
+.Software Development
+      1)c
+      2)c++
+      3)Java
+      4)python
+
+--------------------
+Images:
+
+what are the extensions for image:
+
+.jpeg    flower.jpeg
+.jpg
+.png
+.gif
+
+html  index.html
+css   index.css
+<img>  self closing tag
+----------
+how to add images in our website:
+
+1) download image from the chrome and store in your project folder
+
+2) vs.code
+     attribute:it is used to give additional information
+     source
+<img src="./imagepath">
+     attribute
+./   ---->it is used to fetch same folder files
+../  --->fetch the file outside of the folder    
+
+-------------->
+
+how to resize the images:
+
+<img src="./imagepath" width="300px" height="300px">
+
+-------------------------
+
+alternative text for the images:
+
+<img src="imagepath" alt="image not found" width="300px" height="300px">
+
+
+empty tag                         self closing tag
+there is no additional            we have additional informations.
+information about the tag.
+
+<br>  <hr>                       <img src=""  width="" height="">
+
+----------------------------
+how to add caption to the image
+   it is used to give the caption tothe images.
+
+<figure>
+    <img src=" image path">
+    <figcaption>data</figcaption>
+</figure>
+-------------------------------------------
+
+Tables:
+      collection of rows and columns.
+
+why tables?
+      because it is easy to understand.
+
+structure of table:
+
+<table>
+    <thead>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+row span and col span table:
+
+
+-----------------------------------------------------------------------------------------------------------
+link:
+
+why we need link:
+   it is used to redirect one page  to another page.
+
+two types of links:
+   1)text link
+   2)image link
+
+syntax to create a link:
+
+anchor tag   
+<a>Amazon</a>
+
+text link:
+<a href="link">include visible text here</a>
+
+image link:
+
+<a href="link"><img src=""></a>
+
+how to open a link in new tab (or) new window:
+           
+<a href="link"  target="_blank">link name</a>
+
+
+geo location map:
+
+1) take screenshot of the particular location
+2) copy the original map location link
+3) inside src give image path
+4) inside href paste the copied link
+
+
+how to add gmail,whatsapp:
+
+mail:
+<a href="mailto:amazon@gmail.com">icons</a>
+
+whatsapp:
+<a href="https://wa.me/8848918359">icon</a>
+
+how to redirect different pages:
+
+how to redirect same pages:
+
+---------------
+
+inline elements                    block level elements
+
+img,a,label,input,span                     h1, p
+
+it will take particular            it will take complete webpage width
+content width.
+
+                                         <h1>hello</h1>
+ <img>                                   <p>lorem</p>   
+                                     
+ <img>                                   oup:
+ <img>                                     hello
+                                           lorem
+   img1   img2  img3
+
+
+Tag :   <p></p>
+element:   <p>lorem</p>
+
+self closing tag  <img src="">, empty tag   <br>
+
+forms:
+
+     forms are used to get the user information
+
+4 types :
+ 1)sign in/login      used to verify the user is already exist or not   username ,password
+ 2)sign up      registration (all datas)  used to collect all 
+                information about the user.
+       
+ 4)log out        
+
+
+label used to declare about the input field
+             
+        Login h1 
+ 
+label       input
+username------------------
+password -----------------
+
+     login button
+
+
+
+types of input tags:
+
+1)text    -> name,address,     
+2)number   mobileno,regno
+3)email    email@gamil.com
+4)password  
+5)radio 
+gender  experience
+     O male
+     O female
+     O others -> mcq single input
+
+6)checkbox
+     [] -> multiple input
+
+skills:
+ [] c 
+ [] c++ 
+ [] html 
+ [] css
+ [] js
+
+7)date
+8)file
+9)range
+10)button  
+
+fieldset -> used to create a border around the content
+legend   -> used to give the title on the border
+
+11)dropdown  -> html
+<select>
+     
+  
+
+
+Attributes for Input:
+1) type
+2) name 
+3) placeholder
+4) checked
+5)  disabled
+6) onclick  ->js
+7) onchange -> js
+8) value    -> js
+9)content-editable
+
+dropdown:
+
+
+Ass:
+Registration Form:
+
+1) Firstname      text
+2) Middle name    text
+3) Lastname       text
+4) Mobile no      number
+5) Email Id       email
+6) Password       password
+7) Experience     radio,
+8) Hardware Skills  checkbox
+9) Programming Skills  checkbox
+10) Address     text
+11) city        select option  
+12) state       select option
+13) pincode     number
+14) DOB         date
+15) resume      file
+16) submit      button 
+17) reset
+
+
+ datalist  -> js  it is used to filter the list based on the input
+
+audio: mp3
+video: mp4
+
+iframe:
+     html inside another one html page 
+
+youtube iframe: attaching youtube videos to our webpage
+
+open the video
+right click -> copy embed code
+paste in html wherever you need
+
+
+tag        :<p></p>
+element   :<p>lorem </p>
+attributes :used to give additional information <img src="" alt="">
+semantic elements: like a meaningful name  -. table,form
+nonsemantic elements: span,div,section
+inline element -> it will take particular width of the content
+block level elements ->complete web page width
+self tag   with additional information  <img src="">
+empty tag  without additional information and ther is no closing tag <br>
+
+other tags:
+
+1) ins,del,mark,small,sup,sub,header,
+footer,details and summary,address,
+span,div,section,marquee,u,q,i,em,b,strong
+
+meta tags:
+    it is used to give additional information to search engine.
+UTF-8 is encoding. It is how unicode numbers are translated into binary numbers to be stored in 
+the computer:
+UTF-8 encoding will store "hello" like this (binary): 01101000
+UTF stands for Unicode Transformation Format.
+
+to add social medio icons:
+
+1)parent link library
+
+step 2: font awesome cdn ->
+copy the first link -> 
+paste inside the head tag
+
+2)child link  icons whatsapp,facebook
+
+step 1:chrome fontawesome icon  
+   -> whatever you want ->
+    copy the link ->
+ paste inside the body tag
+
+
+html(5)
+css:(3) 
+
+    1) cascading style sheet
+    2) it used to create a attractive websites.
+    3) we can give styling like textcolor,backgroundcolor,font,shadow,button color,margin,border.
+    4) it is case Sensitive.
+
+html -> non case sensitive  H1 h1
+css  -> case sensitive      #home  id="home"  "HOME"
+
+types of css:
+  1.inline    inside the tag
+  2.internal  inside the file
+  3.extenal  outside of the file
+
+--------------------------------------------------
+
+inline css:
+     
+  it is used to create a style for single tag using style attribute.
+
+   1)inline css   -> inside the tag
+
+inline css:
+           
+           property:value
+<h1 style="color:red">Innovaskill</h1>
+
+
+---------------------------------------------
+Internal css:
+
+inside the head tag we are creating the stylings.
+
+syntax of css:
+--------------
+selector{  
+  property :value;
+  property :value;
+  property :value;
+     |
+     |
+  n no of property :value;
+}
+ 
+------------------------------------------------
+types of selector:
+1)tag selector
+2)id selector   (#)  #home
+3)class selector  (.) 
+4)universal selector
+5)grouping selector,
+6)nesting selector
+
+
+internal css using tag selector:
+
+1)tag selector 
+
+    h1{
+     background-color: red;
+    }
+<h1>hello</h1>
+
+-------------------------------------------------
+2)id selector (#)  unique elements
+
+    #Home{
+      background-color: red;
+    }
+<h1 id="Home">Welcome </h1>
+-------------------------------------------------
+3)class selector (.) group of elements
+
+<h1 class="Home">Welcome</h1>
+
+    .Home{
+      background-color: red;
+    }
+--------------------------------------------------
+4) universal selector
+
+it is used to select all the tags given in the html page.
+
+*{
+     background-color:value;
+}
+--------------------------------------------------
+5) grouping selector it is used to select group of tags or ids or class 
+
+h1,h2,h3,h4{
+ background-color:value;
+}
+--------------------------------------------------
+6) nesting selector   
+
+explicitly states the relationship between parent and child 
+rules when using CSS nesting.
+
+
+#container .total h1{
+
+}
+
+<h1>hello</h1>
+<div id="container">
+    <h1>data</h1>
+    <section class="total">
+        <h1>welcome</h1>
+     </section>
+</div>
+
+
+combinator selector
+1.descendent combinator (space)
+2.child combinator (>)
+3.next siblings combinator(+)
+4.sub-seqiuent sibling (~)
+
+-------------------------------------------------------------------------------------------------------------------------
+external css  ----
+
+index.css
+
+text property:
+
+1)text-decoration: dashed     
+                   dotted     
+                   double     
+                   line-through 
+                   none
+                   overline
+                   solid
+                   underline
+                   wavy
+
+2)text-transform:
+
+3)text-align:
+
+4)text-indent:[px size] used to create a space starting of the paragraph at firstline
+    
+5)font-family: 
+
+6)font-size:px size; user can increase or decrease the size of 
+text.
+
+7)color ->used to give the text color
+  text-color  X
+  color     /
+
+mcq:
+  textColor
+  text-color
+  text_Color
+  color  /
+
+8)text-shadow: hor(px size) ver(px size)  color;
+
+9)letter-spacing: px
+
+10)line-height:px 
+
+
+
+box-model: border, margin,padding
+
+border:
+          width
+  border: pxsize  text-decoration  color; (t/l/r/b)
+
+  border-top     : 1px solid black;
+  border-bottom  : 2px solid red;
+  border-left    : 1px solid black;
+  border-right   : 1px solid black;
+   
+shorthand property:
+
+  border:1px solid black; t/b/l/r
+
+
+rounded  corners:
+   1) border-radius: t/b/l/r   px , better  100%
+   
+how to set border-radius for one corner:
+1)border-top-right-radius:
+2)border-top-left-radius:
+3)border-bottom-right-radius:
+4)border-bottom-left-radius:
+
+asymmetric: 40px 50px 20px 10px;
+1) top-left
+2) top-right
+3) bottom-right
+4)bottom-left
+
+margin:
+    it is used to create a space outside of the border.
+
+syntax:
+margin-left:30px;
+margin-right:30px;
+margin-top:50px;
+margin-bottom:30px;
+
+shorthand properties:
+
+margin:10px 20px 30px 40px;
+        t   r     b    l   (clockwise)
+
+margin:10px 20px 30px;
+       t    l/r   b
+
+margin:10px 20px;
+       t/b   l/r
+
+margin:10px;
+       t/b/l/r
+
+
+padding:
+    create spaces inside of the border 
+
+padding-left:30px;     
+padding-right:30px;
+padding-top:50px;
+padding-bottom:30px;
+
+shorthand properties:
+
+
+padding:10px 20px 30px 40px;
+        t    r     b    l
+
+padding:10px 20px 30px;
+       t    l/r   b
+
+padding:10px 20px;
+       t/b   l/r
+
+padding:10px;
+       t/b/l/r
+
+
+
+--------------------
+
+
+list style:
+
+link style:
+
+a:link {
+    unvisited  link 
+}
+a:hover{
+    mouse hover the part
+}
+a:active{
+    clickable
+}
+a:visited{
+    after visisted  
+}
+
+image:
+
+dimension:
+    1) width: px ,vw 
+    2) height:px ,vh
+
+images blur property:
+
+   1) opacity:   1        ->original image
+               0.1 to 0.9 ->blur content
+               min   max 
+
+box-shadow:horizontal  vertical  spreadness thickness coloroftheshadow:
+
+ 
+text-align: used to align only text not images video audio div section
+float:left, right -> used to align object  center -> we have to use margin
+
+
+outline:
+outline-color:
+outline-style: 
+
+dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+none
+hidden
+
+ 
+
+background:
+
+1)background-color:
+
+2)background-images:
+
+3)background linear gradient,
+radial gradient:
+
+4)overlay effect
+
+5)blur  background
+
+
+
+
+table styling:
+
+display:inline -> it is used to convert block level elements to inline elements.
+                  same line only, it will take only width of the  content 
+                 ,we can't give width and height  for the text
+
+        block  -> used to convert inline into block level 
+                  it is possible to change the width and height of the content.
+
+        flex ->it is used to arrange the items in row wise;its like block level
+
+        inline-flex ->arrange the items in row wise but like a inline element 
+                     we can arrange two rows as a single row.
+
+        flex-wrap:wrap one section inside multiple div .if you want to align based on system width 
+as  row wise.
+
+        none -> remove the text as well as space .
+
+
+
+visibility:hidden;  -> only text will be hide
+display:none        -> text as well as space also removed.
+
+
+display:grid; two dimensional  x,y  row and columns
+display:flex; one dimensional  -> row
+
+
+Tooltip:(mouse over content)
+
+visibility:visible;
+visibility:hidden;  -> only text will be hide
+
+login
+   student login
+   teacher login
+   hod login
+
+
+position:
+
+1)fixed ->   it is used to fix the complete container 
+             position:fixed;
+             top:0; used to attach with 0 margin from the top
+
+Relative - the element is positioned relative to its normal position.
+Absolute - the element is positioned absolutely to its first positioned parent. 
+Fixed    - the element is positioned related to the browser window. 
+static
+
+
+
+z-index: used to specify the stack order of an element
+
+z-index:0
+-1 behind
+1 front
+
+___________________________________ 
+
+
+What are Pseudo-classes?(:)
+
+     A pseudo-class is used to define a special state of an element.
+
+1) Style an element when a user mouses over it
+2) Style visited and unvisited links differently
+3) Style an element when it gets focus
+
+:link
+:hover
+:active
+:visited
+:focus
+:nth-child()
+
+
+Pseudo elements:
+
+1) :: firstletter
+2) :: firstline
+3) :: marker   changed the list style color
+4) :: selection
+5) :: placeholder
+6) :: before 
+7) :: after
+
+
+
+Transition :
+
+
+
+Animations :
+
+
+media query:
+1) it is used to create a responsive website.
+2) like whatever we are seeing in laptop that same all content we have 
+   to display in mobile also.
+3) so using media query we can arrange the items based on the devices.
+
+syntax:
+
+@media screen and (maximum width:500px){
+
+}
+
+
+
+1)flex-direction:row
+2)flex-direction:column
+
+
+bootstrap css:
+SCSS
+tailwind css: vite js
+
+  html cs js  -> bootstrap
+  react,angular 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

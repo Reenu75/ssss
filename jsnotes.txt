@@ -1,7 +1,4 @@
 
-Html -> structure 
-css  -> styling 
-js   -> action
 
 Javascript:
       1)it is used to create a action to our website.
